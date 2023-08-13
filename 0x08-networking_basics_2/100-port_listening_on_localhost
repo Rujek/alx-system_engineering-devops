@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# -l listens and waits for incoming comms, -k continues to wait afterward
-nc -kl 98
+# Bash script that listens on port 98 on localhost.
+
+nc -l localhost 98
